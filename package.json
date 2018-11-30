@@ -1,0 +1,76 @@
+{
+  "name": "ee_simple_calculator",
+  "version": "1.0.0",
+  "description": "Equal Experts Simple Calculator",
+  "main": "src/index.tsx",
+  "author": "Jose Quinto",
+  "license": "ISC",
+  "keywords": [],
+  "engines": {
+    "npm": "6.1.0",
+    "node": "8.11.3"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --mode development --open --config ./webpack/webpack.config.js --env.env=dev",
+    "build:prod:bundleVisualizer": "npm run build -- --progress --profile --env.addons=bundleVisualizer",
+    "build:prod:bundleAnalyzer": "npm run build -- --env.addons=bundleAnalizer",
+    "build:prod:stats": "npm run build -- --progress --profile --json > ./dist/stats/stats.json",
+    "build": "webpack --mode production --config ./webpack/webpack.config.js --env.env=prod",
+    "test": "jest --env=jsdom --config=./test/config/jest.config.json",
+    "lint": "tslint -c tslint.json --project tsconfig.json",
+    "test:coverage": "npm run test --coverage",
+    "precommit": "lint-staged",
+    "prepush": "npm run test"
+  },
+  "dependencies": {
+    "@types/react": "16.7.6",
+    "@types/react-dom": "16.0.9",
+    "@types/styled-components": "4.1.0",
+    "core-js": "2.5.7",
+    "react": "16.6.3",
+    "react-dom": "16.6.3",
+    "styled-components": "4.1.1",
+    "styled-tools": "1.6.0"
+  },
+  "devDependencies": {
+    "@types/jest": "23.3.9",
+    "@types/node": "10.12.10",
+    "@types/react-hot-loader": "4.1.0",
+    "@types/react-test-renderer": "16.0.3",
+    "@types/webpack-env": "1.13.6",
+    "compression-webpack-plugin": "2.0.0",
+    "copy-webpack-plugin": "4.6.0",
+    "css-loader": "1.0.1",
+    "fork-ts-checker-webpack-plugin": "0.5.0",
+    "html-webpack-plugin": "3.2.0",
+    "husky": "1.2.0",
+    "identity-obj-proxy": "3.0.0",
+    "jest": "23.6.0",
+    "jest-styled-components": "7.0.0-2",
+    "lint-staged": "8.1.0",
+    "mini-css-extract-plugin": "0.4.5",
+    "react-hot-loader": "4.3.12",
+    "react-test-renderer": "16.6.3",
+    "source-map-loader": "0.2.4",
+    "style-loader": "0.23.1",
+    "ts-jest": "23.10.5",
+    "ts-loader": "5.3.0",
+    "tslint": "5.11.0",
+    "tslint-config-prettier": "1.16.0",
+    "tslint-react": "3.6.0",
+    "typescript": "3.1.6",
+    "uglifyjs-webpack-plugin": "2.0.1",
+    "webpack": "4.26.0",
+    "webpack-bundle-analyzer": "3.0.3",
+    "webpack-cli": "3.1.2",
+    "webpack-dev-server": "3.1.10",
+    "webpack-merge": "4.1.4",
+    "webpack-visualizer-plugin": "0.1.11"
+  },
+  "lint-staged": {
+    "*.ts": [
+      "npm run lint",
+      "git add"
+    ]
+  }
+}

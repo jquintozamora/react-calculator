@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> @renders should render default state 1`] = `
+<ForwardRef>
+  <ForwardRef
+    bgColor="#f5f5f5"
+    borderColor="#949494"
+    color="#1795d4"
+    hoverColor="#000000"
+  />
+</ForwardRef>
+`;
+
+exports[`<Button /> @renders should render numeric button 1`] = `
+<ForwardRef
+  expand={false}
+>
+  <ForwardRef
+    bgColor="#373d45"
+    borderColor="#949494"
+    color="#FFFFFF"
+    data-name="2"
+    hoverColor="#949494"
+    onClick={[MockFunction]}
+    selected={false}
+  >
+    2
+  </ForwardRef>
+</ForwardRef>
+`;
+
+exports[`<Button /> @renders should render operation button 1`] = `
+<ForwardRef
+  expand={false}
+>
+  <ForwardRef
+    bgColor="#fed800"
+    borderColor="#d4b526"
+    color="#000000"
+    data-name="+"
+    hoverColor="#949494"
+    onClick={[MockFunction]}
+    selected={false}
+  >
+    +
+  </ForwardRef>
+</ForwardRef>
+`;
+
+exports[`<Button /> @renders should render operation button selected 1`] = `
+<ForwardRef
+  expand={false}
+>
+  <ForwardRef
+    bgColor="#fed800"
+    borderColor="#d4b526"
+    color="#000000"
+    data-name="-"
+    hoverColor="#949494"
+    onClick={[MockFunction]}
+    selected={true}
+  >
+    -
+  </ForwardRef>
+</ForwardRef>
+`;
+
+exports[`<Button /> @renders should render others button 1`] = `
+<ForwardRef
+  expand={false}
+>
+  <ForwardRef
+    bgColor="#cdeeff"
+    borderColor="#1795d4"
+    color="#666"
+    data-name="AC"
+    hoverColor="#FFFFFF"
+    onClick={[MockFunction]}
+    selected={false}
+  >
+    AC
+  </ForwardRef>
+</ForwardRef>
+`;

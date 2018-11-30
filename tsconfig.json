@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "esnext",
+    "lib": ["dom", "es2017"],
+    "jsx": "react",
+    "declaration": false,
+    "sourceMap": true,
+    "outDir": "./dist/js",
+    "strict": true,
+    "noStrictGenericChecks": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "typeRoots": ["./node_modules/@types"],
+    "types": ["jest", "node", "react", "react-dom", "webpack-env"],
+    "esModuleInterop": true
+  }
+}
