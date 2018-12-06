@@ -1,11 +1,11 @@
 import * as React from "react";
-import { EqualExperts } from "../icons/EqualExperts";
+import { ReactLogo } from "../icons/ReactLogo";
 import { StyledHeader } from "./styles";
 
 const Header = (props: {}) => {
   return (
     <StyledHeader>
-      <EqualExperts />
+      <ReactLogo />
     </StyledHeader>
   );
 };

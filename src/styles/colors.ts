@@ -8,3 +8,4 @@ export const black = "#000000";
 export const lightBlack = "#373d45";
 export const eeYellow = "#fed800";
 export const eeDarkYellow = "#d4b526";
+export const reactLogo = "#61DAFB";

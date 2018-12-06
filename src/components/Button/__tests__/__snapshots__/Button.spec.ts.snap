@@ -1,84 +1,216 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Button /> @renders should render default state 1`] = `
-<ForwardRef>
-  <ForwardRef
-    bgColor="#f5f5f5"
-    borderColor="#949494"
+.c0 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c1 {
+  background-color: #f5f5f5;
+  color: #1795d4;
+  cursor: pointer;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid #949494;
+  margin: 5px;
+  line-height: 50px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  opacity: 1;
+}
+
+.c1:hover {
+  background-color: #949494;
+  color: #000000;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
     color="#1795d4"
-    hoverColor="#000000"
   />
-</ForwardRef>
+</div>
 `;
 
 exports[`<Button /> @renders should render numeric button 1`] = `
-<ForwardRef
-  expand={false}
+.c0 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c1 {
+  background-color: #373d45;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid #949494;
+  margin: 5px;
+  line-height: 50px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  opacity: 1;
+}
+
+.c1:hover {
+  background-color: #949494;
+  color: #949494;
+}
+
+<div
+  className="c0"
 >
-  <ForwardRef
-    bgColor="#373d45"
-    borderColor="#949494"
+  <div
+    className="c1"
     color="#FFFFFF"
     data-name="2"
-    hoverColor="#949494"
     onClick={[MockFunction]}
     selected={false}
   >
     2
-  </ForwardRef>
-</ForwardRef>
+  </div>
+</div>
 `;
 
 exports[`<Button /> @renders should render operation button 1`] = `
-<ForwardRef
-  expand={false}
+.c0 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c1 {
+  background-color: #fed800;
+  color: #000000;
+  cursor: pointer;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid #d4b526;
+  margin: 5px;
+  line-height: 50px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  opacity: 1;
+}
+
+.c1:hover {
+  background-color: #d4b526;
+  color: #949494;
+}
+
+<div
+  className="c0"
 >
-  <ForwardRef
-    bgColor="#fed800"
-    borderColor="#d4b526"
+  <div
+    className="c1"
     color="#000000"
     data-name="+"
-    hoverColor="#949494"
     onClick={[MockFunction]}
     selected={false}
   >
     +
-  </ForwardRef>
-</ForwardRef>
+  </div>
+</div>
 `;
 
 exports[`<Button /> @renders should render operation button selected 1`] = `
-<ForwardRef
-  expand={false}
+.c0 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c1 {
+  background-color: #fed800;
+  color: #000000;
+  cursor: pointer;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid #d4b526;
+  margin: 5px;
+  line-height: 50px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  opacity: 0.5;
+}
+
+.c1:hover {
+  background-color: #d4b526;
+  color: #949494;
+}
+
+<div
+  className="c0"
 >
-  <ForwardRef
-    bgColor="#fed800"
-    borderColor="#d4b526"
+  <div
+    className="c1"
     color="#000000"
     data-name="-"
-    hoverColor="#949494"
     onClick={[MockFunction]}
     selected={true}
   >
     -
-  </ForwardRef>
-</ForwardRef>
+  </div>
+</div>
 `;
 
 exports[`<Button /> @renders should render others button 1`] = `
-<ForwardRef
-  expand={false}
+.c0 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c1 {
+  background-color: #cdeeff;
+  color: #666;
+  cursor: pointer;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid #1795d4;
+  margin: 5px;
+  line-height: 50px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  opacity: 1;
+}
+
+.c1:hover {
+  background-color: #1795d4;
+  color: #FFFFFF;
+}
+
+<div
+  className="c0"
 >
-  <ForwardRef
-    bgColor="#cdeeff"
-    borderColor="#1795d4"
+  <div
+    className="c1"
     color="#666"
     data-name="AC"
-    hoverColor="#FFFFFF"
     onClick={[MockFunction]}
     selected={false}
   >
     AC
-  </ForwardRef>
-</ForwardRef>
+  </div>
+</div>
 `;

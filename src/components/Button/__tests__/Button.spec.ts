@@ -1,5 +1,5 @@
 import Button from "..";
-import { buildTestShallowRender, buildTestRender } from "../../../../test/unit/helpers/ComponentHelper";
+import { buildTestRender } from "../../../../test/unit/helpers/ComponentHelper";
 import {
   eeBlue,
   eeLightBlue,
@@ -14,7 +14,7 @@ import {
 } from "../../../styles/colors";
 
 describe("<Button />", () => {
-  const renderComponent = buildTestShallowRender(Button);
+  const renderComponent = buildTestRender(Button);
   const defaultProps = {
     "data-name": "1",
     onClick: jest.fn(),

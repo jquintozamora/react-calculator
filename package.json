@@ -1,7 +1,7 @@
 {
   "name": "ee_simple_calculator",
   "version": "1.0.0",
-  "description": "Equal Experts Simple Calculator",
+  "description": "React Simple Calculator",
   "main": "src/index.tsx",
   "author": "Jose Quinto",
   "license": "ISC",

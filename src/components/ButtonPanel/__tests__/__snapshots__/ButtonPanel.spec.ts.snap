@@ -3,7 +3,7 @@
 exports[`<ButtonPanel /> @renders should render default state 1`] = `
 <ForwardRef>
   <ForwardRef>
-    <Unknown
+    <UNDEFINED
       bgColor="#cdeeff"
       borderColor="#1795d4"
       color="#666"
@@ -11,7 +11,7 @@ exports[`<ButtonPanel /> @renders should render default state 1`] = `
       hoverColor="#FFFFFF"
       onClick={[Function]}
     />
-    <Unknown
+    <UNDEFINED
       bgColor="#cdeeff"
       borderColor="#1795d4"
       color="#666"
@@ -19,7 +19,7 @@ exports[`<ButtonPanel /> @renders should render default state 1`] = `
       hoverColor="#FFFFFF"
       onClick={[Function]}
     />
-    <Unknown
+    <UNDEFINED
       bgColor="#cdeeff"
       borderColor="#1795d4"
       color="#666"
@@ -27,7 +27,7 @@ exports[`<ButtonPanel /> @renders should render default state 1`] = `
       hoverColor="#FFFFFF"
       onClick={[Function]}
     />
-    <Unknown
+    <UNDEFINED
       bgColor="#fed800"
       borderColor="#d4b526"
       color="#000000"
@@ -38,31 +38,28 @@ exports[`<ButtonPanel /> @renders should render default state 1`] = `
     />
   </ForwardRef>
   <ForwardRef>
-    <Unknown
+    <UNDEFINED
       bgColor="#373d45"
-      borderColor="#949494"
       color="#FFFFFF"
       data-name="7"
       hoverColor="#000000"
       onClick={[Function]}
     />
-    <Unknown
+    <UNDEFINED
       bgColor="#373d45"
-      borderColor="#949494"
       color="#FFFFFF"
       data-name="8"
       hoverColor="#000000"
       onClick={[Function]}
     />
-    <Unknown
+    <UNDEFINED
       bgColor="#373d45"
-      borderColor="#949494"
       color="#FFFFFF"
       data-name="9"
       hoverColor="#000000"
       onClick={[Function]}
     />
-    <Unknown
+    <UNDEFINED
       bgColor="#fed800"
       borderColor="#d4b526"
       color="#000000"
@@ -73,31 +70,28 @@ exports[`<ButtonPanel /> @renders should render default state 1`] = `
     />
   </ForwardRef>
   <ForwardRef>
-    <Unknown
+    <UNDEFINED
       bgColor="#373d45"
-      borderColor="#949494"
       color="#FFFFFF"
       data-name="4"
       hoverColor="#000000"
       onClick={[Function]}
     />
-    <Unknown
+    <UNDEFINED
       bgColor="#373d45"
-      borderColor="#949494"
       color="#FFFFFF"
       data-name="5"
       hoverColor="#000000"
       onClick={[Function]}
     />
-    <Unknown
+    <UNDEFINED
       bgColor="#373d45"
-      borderColor="#949494"
       color="#FFFFFF"
       data-name="6"
       hoverColor="#000000"
       onClick={[Function]}
     />
-    <Unknown
+    <UNDEFINED
       bgColor="#fed800"
       borderColor="#d4b526"
       color="#000000"
@@ -108,31 +102,28 @@ exports[`<ButtonPanel /> @renders should render default state 1`] = `
     />
   </ForwardRef>
   <ForwardRef>
-    <Unknown
+    <UNDEFINED
       bgColor="#373d45"
-      borderColor="#949494"
       color="#FFFFFF"
       data-name="1"
       hoverColor="#000000"
       onClick={[Function]}
     />
-    <Unknown
+    <UNDEFINED
       bgColor="#373d45"
-      borderColor="#949494"
       color="#FFFFFF"
       data-name="2"
       hoverColor="#000000"
       onClick={[Function]}
     />
-    <Unknown
+    <UNDEFINED
       bgColor="#373d45"
-      borderColor="#949494"
       color="#FFFFFF"
       data-name="3"
       hoverColor="#000000"
       onClick={[Function]}
     />
-    <Unknown
+    <UNDEFINED
       bgColor="#fed800"
       borderColor="#d4b526"
       color="#000000"
@@ -143,24 +134,21 @@ exports[`<ButtonPanel /> @renders should render default state 1`] = `
     />
   </ForwardRef>
   <ForwardRef>
-    <Unknown
+    <UNDEFINED
       bgColor="#373d45"
-      borderColor="#949494"
       color="#FFFFFF"
       data-name="0"
       expand={true}
       hoverColor="#000000"
       onClick={[Function]}
     />
-    <Unknown
+    <UNDEFINED
       bgColor="#373d45"
-      borderColor="#949494"
       color="#FFFFFF"
       data-name="."
-      hoverColor="#000000"
       onClick={[Function]}
     />
-    <Unknown
+    <UNDEFINED
       bgColor="#fed800"
       borderColor="#d4b526"
       color="#000000"
@@ -175,7 +163,7 @@ exports[`<ButtonPanel /> @renders should render default state 1`] = `
 exports[`<ButtonPanel /> @renders should render opacity when operator is selected 1`] = `
 <ForwardRef>
   <ForwardRef>
-    <Unknown
+    <UNDEFINED
       bgColor="#cdeeff"
       borderColor="#1795d4"
       color="#666"
@@ -183,7 +171,7 @@ exports[`<ButtonPanel /> @renders should render opacity when operator is selecte
       hoverColor="#FFFFFF"
       onClick={[Function]}
     />
-    <Unknown
+    <UNDEFINED
       bgColor="#cdeeff"
       borderColor="#1795d4"
       color="#666"
@@ -191,7 +179,7 @@ exports[`<ButtonPanel /> @renders should render opacity when operator is selecte
       hoverColor="#FFFFFF"
       onClick={[Function]}
     />
-    <Unknown
+    <UNDEFINED
       bgColor="#cdeeff"
       borderColor="#1795d4"
       color="#666"
@@ -199,7 +187,7 @@ exports[`<ButtonPanel /> @renders should render opacity when operator is selecte
       hoverColor="#FFFFFF"
       onClick={[Function]}
     />
-    <Unknown
+    <UNDEFINED
       bgColor="#fed800"
       borderColor="#d4b526"
       color="#000000"
@@ -210,31 +198,28 @@ exports[`<ButtonPanel /> @renders should render opacity when operator is selecte
     />
   </ForwardRef>
   <ForwardRef>
-    <Unknown
+    <UNDEFINED
       bgColor="#373d45"
-      borderColor="#949494"
       color="#FFFFFF"
       data-name="7"
       hoverColor="#000000"
       onClick={[Function]}
     />
-    <Unknown
+    <UNDEFINED
       bgColor="#373d45"
-      borderColor="#949494"
       color="#FFFFFF"
       data-name="8"
       hoverColor="#000000"
       onClick={[Function]}
     />
-    <Unknown
+    <UNDEFINED
       bgColor="#373d45"
-      borderColor="#949494"
       color="#FFFFFF"
       data-name="9"
       hoverColor="#000000"
       onClick={[Function]}
     />
-    <Unknown
+    <UNDEFINED
       bgColor="#fed800"
       borderColor="#d4b526"
       color="#000000"
@@ -245,31 +230,28 @@ exports[`<ButtonPanel /> @renders should render opacity when operator is selecte
     />
   </ForwardRef>
   <ForwardRef>
-    <Unknown
+    <UNDEFINED
       bgColor="#373d45"
-      borderColor="#949494"
       color="#FFFFFF"
       data-name="4"
       hoverColor="#000000"
       onClick={[Function]}
     />
-    <Unknown
+    <UNDEFINED
       bgColor="#373d45"
-      borderColor="#949494"
       color="#FFFFFF"
       data-name="5"
       hoverColor="#000000"
       onClick={[Function]}
     />
-    <Unknown
+    <UNDEFINED
       bgColor="#373d45"
-      borderColor="#949494"
       color="#FFFFFF"
       data-name="6"
       hoverColor="#000000"
       onClick={[Function]}
     />
-    <Unknown
+    <UNDEFINED
       bgColor="#fed800"
       borderColor="#d4b526"
       color="#000000"
@@ -280,31 +262,28 @@ exports[`<ButtonPanel /> @renders should render opacity when operator is selecte
     />
   </ForwardRef>
   <ForwardRef>
-    <Unknown
+    <UNDEFINED
       bgColor="#373d45"
-      borderColor="#949494"
       color="#FFFFFF"
       data-name="1"
       hoverColor="#000000"
       onClick={[Function]}
     />
-    <Unknown
+    <UNDEFINED
       bgColor="#373d45"
-      borderColor="#949494"
       color="#FFFFFF"
       data-name="2"
       hoverColor="#000000"
       onClick={[Function]}
     />
-    <Unknown
+    <UNDEFINED
       bgColor="#373d45"
-      borderColor="#949494"
       color="#FFFFFF"
       data-name="3"
       hoverColor="#000000"
       onClick={[Function]}
     />
-    <Unknown
+    <UNDEFINED
       bgColor="#fed800"
       borderColor="#d4b526"
       color="#000000"
@@ -315,24 +294,21 @@ exports[`<ButtonPanel /> @renders should render opacity when operator is selecte
     />
   </ForwardRef>
   <ForwardRef>
-    <Unknown
+    <UNDEFINED
       bgColor="#373d45"
-      borderColor="#949494"
       color="#FFFFFF"
       data-name="0"
       expand={true}
       hoverColor="#000000"
       onClick={[Function]}
     />
-    <Unknown
+    <UNDEFINED
       bgColor="#373d45"
-      borderColor="#949494"
       color="#FFFFFF"
       data-name="."
-      hoverColor="#000000"
       onClick={[Function]}
     />
-    <Unknown
+    <UNDEFINED
       bgColor="#fed800"
       borderColor="#d4b526"
       color="#000000"

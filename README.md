@@ -1,10 +1,4 @@
-# EE Simple Calculator
-We’d like you to write a basic calculator with Equal Experts branding. You can use whichever approach you prefer, with or without frameworks.
-
-The calculator should be attractive and while we’re not expecting all features to be implemented any that are should match what you’d expect from a simple pocket calculator.
-
-
-Version number: 0c6e95aff1b2f3a1d2dbfdc2f9957e567b554159
+# React Simple Calculator
 
 ## Stack
 A BFF layer can be done in hundred different ways, in our case we chose:
