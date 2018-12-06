@@ -1,5 +1,5 @@
 # React Simple Calculator
-![react-calculator](/assets/react-calculator.png)
+![react-calculator](/assets/react-calculator.png?s=300)
 
 ## Stack
 A BFF layer can be done in hundred different ways, in our case we chose:
