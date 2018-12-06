@@ -1,4 +1,5 @@
 # React Simple Calculator
+![react-calculator](/assets/react-calculator.png)
 
 ## Stack
 A BFF layer can be done in hundred different ways, in our case we chose:
@@ -41,4 +42,3 @@ A BFF layer can be done in hundred different ways, in our case we chose:
 - Unit Tests runs automatically when we do `git push`
 - To run tests manually -> `npm run test` 
 - Run tests in watch mode -> `npm run test -- --watchAll <nameOfTheFile>`
-
