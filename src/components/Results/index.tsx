@@ -4,4 +4,4 @@ import { ResultsContainer } from "./styles";
 
 const Results = (props: IResultsProps) => <ResultsContainer>{props.text}</ResultsContainer>;
 
-export default Results;
+export default React.memo(Results);

@@ -6,7 +6,7 @@ import { calculateState } from "../../helpers";
 import { ICalculatorState } from "./ICalculatorState";
 import { CalculatorContainer } from "./styles";
 
-class Calculator extends React.Component<{}, ICalculatorState> {
+class Calculator extends React.PureComponent<{}, ICalculatorState> {
   constructor(props: {}) {
     super(props);
     this.state = {

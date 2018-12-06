@@ -19,4 +19,4 @@ Button.defaultProps = {
   hoverColor: black
 };
 
-export default Button;
+export default React.memo(Button);

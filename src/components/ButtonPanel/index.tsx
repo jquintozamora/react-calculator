@@ -15,7 +15,7 @@ import {
   white
 } from "../../styles/colors";
 
-class ButtonPanel extends React.Component<IButtonPanelProps, {}> {
+class ButtonPanel extends React.PureComponent<IButtonPanelProps, {}> {
   public render() {
     return (
       <ButtonPanelContainer>
